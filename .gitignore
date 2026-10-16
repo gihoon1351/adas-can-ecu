@@ -1,0 +1,48 @@
+# Local editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+# Vivado / Vitis generated files
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+xsim.dir/
+.metadata/
+RemoteSystemsTempFiles/
+*.jou
+*.log
+*.pb
+*.str
+*.wdb
+*.rpt
+# Compiled firmware and hardware artifacts
+Debug/
+Release/
+*.o
+*.d
+*.a
+*.elf
+*.bit
+*.bin
+# Simulation output
+simv
+simv.daidir/
+csrc/
+*.vdb/
+*.fsdb
+*.vcd
+*.key
+# Local build/export directories
+build/
+dist/
+*.zip
+.env
+.env.*
+!.env.example
